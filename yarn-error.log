@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add express
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;c:\oracle\product\12.1.0\client_1;c:\oracle\product\12.1.0\client_1\bin;C:\app\Administrador\product\12.1.0\client_1;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\oracle92\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Java\jdk1.8.0_45\jre\bin\client;C:\Program Files (x86)\Yarn\bin\;C:\Users\jose.carloslopes\AppData\Roaming\npm;C:\Users\jose.carloslopes\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jose.carloslopes\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/accepts/-/accepts-1.3.7.tgz: tunneling socket could not be established, statusCode=407
+      at ClientRequest.onConnect (C:\Program Files (x86)\Yarn\lib\cli.js:141065:19)
+      at Object.onceWrapper (events.js:277:13)
+      at ClientRequest.emit (events.js:189:13)
+      at Socket.socketOnData (_http_client.js:475:11)
+      at Socket.emit (events.js:189:13)
+      at addChunk (_stream_readable.js:284:12)
+      at readableAddChunk (_stream_readable.js:265:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
